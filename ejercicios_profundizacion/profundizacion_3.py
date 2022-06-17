@@ -36,5 +36,14 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
+
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese su nombre completo separado por un espacio:')
+nombre_completo = str(input())
+
+print(nombre_completo.lower())
+print(nombre_completo.upper())
+print(nombre_completo.capitalize())
+
